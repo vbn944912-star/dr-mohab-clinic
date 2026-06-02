@@ -6,10 +6,10 @@
 import React from 'react';
 import { Heart, Activity, Milestone, ShieldAlert, BadgeCheck } from 'lucide-react';
 import { motion } from 'motion/react';
+import doctorAvatarImg from '../assets/images/doctor_v3_premium_1780443319450.png';
 
 export default function BioSection() {
-  // Use our magnificent generated doctor avatar path
-  const doctorAvatarImg = '/src/assets/images/doctor_v3_premium_1780443319450.png';
+  // Use our magnificent imported doctor avatar asset
 
   const facts = [
     {

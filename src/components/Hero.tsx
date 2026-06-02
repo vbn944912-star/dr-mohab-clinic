@@ -6,14 +6,14 @@
 import React from 'react';
 import { Award, Zap, ShieldCheck, ArrowLeft, Star, Clock } from 'lucide-react';
 import { motion } from 'motion/react';
+import clinicHeroImg from '../assets/images/clinic_v3_premium_1780443336295.png';
 
 interface HeroProps {
   onNavigate: (sectionId: string) => void;
 }
 
 export default function Hero({ onNavigate }: HeroProps) {
-  // Use the highly beautiful generated asset path
-  const clinicHeroImg = '/src/assets/images/clinic_v3_premium_1780443336295.png';
+  // Use the highly beautiful imported asset
 
   const containerVariants = {
     hidden: { opacity: 0 },
