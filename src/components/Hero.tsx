@@ -13,7 +13,7 @@ interface HeroProps {
 
 export default function Hero({ onNavigate }: HeroProps) {
   // Use the highly beautiful generated asset path
-  const clinicHeroImg = '/src/assets/images/clinic_hero_1780441184700.png';
+  const clinicHeroImg = '/src/assets/images/clinic_v3_premium_1780443336295.png';
 
   const containerVariants = {
     hidden: { opacity: 0 },

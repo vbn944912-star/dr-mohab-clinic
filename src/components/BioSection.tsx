@@ -9,7 +9,7 @@ import { motion } from 'motion/react';
 
 export default function BioSection() {
   // Use our magnificent generated doctor avatar path
-  const doctorAvatarImg = '/src/assets/images/doctor_profile_1780441170785.png';
+  const doctorAvatarImg = '/src/assets/images/doctor_v3_premium_1780443319450.png';
 
   const facts = [
     {
